@@ -1,5 +1,8 @@
 package cards;
 
+import game.CoreGame;
+import game.Player;
+
 public abstract class Card {
 
     // Enum pour représenter l'état de la carte
@@ -48,11 +51,13 @@ public abstract class Card {
     // Méthodes pour changer l'état
     public void mettreDansPioche() {
         this.stateCard = State.DANS_PIOCHE;
+        CoreGame.pioche.add(0, this); //Place la carte au-dessous de la pioche
     }
 
-    public void mettreDansMain() {
+    public void mettreDansMain(Player player) {
         this.stateCard = State.DANS_MAIN;
-    }
+        player.hand.add(this);
+        }
 
     public void defausser() {
         this.stateCard = State.DEFAUSSEE;

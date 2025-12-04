@@ -1,4 +1,10 @@
 package game;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cards.Card;
+
 public class Player {
 
     // Compteur global pour attribuer des IDs uniques
@@ -11,6 +17,7 @@ public class Player {
     private boolean elimine;
     private boolean protection;
     private boolean espionne_jouee;
+    public List<Card> hand;
 
     public Player(String nom) {
         this.id = compteurId++;   // ID unique auto-incrémenté
@@ -19,6 +26,7 @@ public class Player {
         this.elimine = false;
         this.protection = false;
         this.espionne_jouee = false;
+        this.hand = new ArrayList<Card>();
     }
 
     // Getters (accesseurs)
