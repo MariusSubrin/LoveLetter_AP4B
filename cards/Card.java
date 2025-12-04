@@ -1,8 +1,5 @@
 package cards;
 
-import game.CoreGame;
-import game.Player;
-
 public abstract class Card {
 
     // Enum pour représenter l'état de la carte
@@ -73,6 +70,26 @@ public abstract class Card {
                ", name='" + nameCard + '\'' +
                ", state=" + stateCard +
                '}';
+    }
+
+    public static Player demanderCible() {
+        Scanner sc = new Scanner(System.in);
+
+        while(true) {
+            System.out.println("\n" + joueurActif.getNom() + ", qui vises tu ? :");
+            System.out.print("Nom : ");
+            String nomChoisi = sc.nextLine().trim();
+
+            // Cherche un joueur avec ce nom
+            for (Player p : joueurs) { // TODO remplacer par la liste de joueurs
+                if (p.getNom().equalsIgnoreCase(nomChoisi)) {
+                    return p; //Donc retourner un joueur
+                }
+            }
+
+            // Si pas trouvé
+            System.out.println("Aucun joueur ne s'appelle \"" + nomChoisi + "\".");
+        }
     }
 
     // Méthode "virtuelle pure" (méthode abstraite)

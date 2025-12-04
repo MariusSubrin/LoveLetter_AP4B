@@ -5,6 +5,8 @@ public class Roi extends Card{
     public void appliquerEffet() {
         // L'effet du Roi est d'échanger sa main avec un autre joueur.
         System.out.println("Le Roi a été joué. Échange de deux mains.");
+        
+        // TODO A compléter lorsque liste de mains créée
     }
 
     public Roi() {
