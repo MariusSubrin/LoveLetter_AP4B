@@ -6,5 +6,6 @@ import java.util.List;
 
 public class CoreGame {
     public static List<Card> pioche = new ArrayList<Card>();
+    public static List<Player> joueurs = new ArrayList<Player>();
 }
 

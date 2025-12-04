@@ -1,5 +1,10 @@
 package cards;
 
+import game.CoreGame;
+import game.Player;
+import java.util.List;
+import java.util.Scanner;
+
 public abstract class Card {
 
     // Enum pour représenter l'état de la carte
@@ -14,18 +19,18 @@ public abstract class Card {
     //C'est bon en private car le constructeur mère est appelé avant
 
     // Attributs de la classe
-
     protected int idCard;
     protected String nameCard;
     protected State stateCard;
     protected int valueCard;
-
+    protected Player userCard;
 
     public Card(String nameCard,int valueCard) {
         this.idCard = compteurId++;
         this.nameCard = nameCard;
         this.valueCard = valueCard;
         this.stateCard = State.DANS_PIOCHE; // par défaut : dans la pioche
+        this.userCard = null; //La carte n'appartient à aucun joueur
     }
 
     // Getters
@@ -45,6 +50,10 @@ public abstract class Card {
         return this.valueCard;
     }
 
+    public Player getUserCard() {
+        return this.userCard;
+    }
+
     // Méthodes pour changer l'état
     public void mettreDansPioche() {
         this.stateCard = State.DANS_PIOCHE;
@@ -54,6 +63,7 @@ public abstract class Card {
     public void mettreDansMain(Player player) {
         this.stateCard = State.DANS_MAIN;
         player.hand.add(this);
+        this.userCard = player;
         }
 
     public void defausser() {
@@ -72,17 +82,17 @@ public abstract class Card {
                '}';
     }
 
-    public static Player demanderCible() {
+    public static Player demanderCible(Player userCard) {
         Scanner sc = new Scanner(System.in);
 
-        while(true) {
-            System.out.println("\n" + joueurActif.getNom() + ", qui vises tu ? :");
+        while(true) { //C'est pas une boucle infinie ?
+            System.out.println("\n" + userCard.getNom() + ", qui vises tu ? :");
             System.out.print("Nom : ");
             String nomChoisi = sc.nextLine().trim();
 
             // Cherche un joueur avec ce nom
-            for (Player p : joueurs) { // TODO remplacer par la liste de joueurs
-                if (p.getNom().equalsIgnoreCase(nomChoisi)) {
+            for (Player p : CoreGame.joueurs) {
+                if (p.getNom().equalsIgnoreCase(nomChoisi) && !(p.isElimine()) && !(p.hasProtection())) { //Si on mettais un while pour vérifier que la selection est valide ? Il faudrait aussi vérifier si le joueur n'est pas éliminé ou protégé sinon il choisit quelqu'un d'autre
                     return p; //Donc retourner un joueur
                 }
             }
