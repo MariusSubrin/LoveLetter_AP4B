@@ -14,11 +14,13 @@ public abstract class Card {
     protected int idCard;
     protected String nameCard;
     protected State stateCard;
+    protected int valueCard;
 
 
-    public Card(String nameCard) {
+    public Card(String nameCard,int valueCard) {
         this.idCard = compteurId++;
         this.nameCard = nameCard;
+        this.valueCard = valueCard;
         this.stateCard = State.DANS_PIOCHE; // par défaut : dans la pioche
     }
 
@@ -33,6 +35,10 @@ public abstract class Card {
 
     public State getStateCard() {
         return this.stateCard;
+    }
+
+    public int getValueCard() {
+        return this.valueCard;
     }
 
     // Méthodes pour changer l'état
