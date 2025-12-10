@@ -2,8 +2,6 @@ package cards;
 
 import game.CoreGame;
 import game.Player;
-import java.util.List;
-import java.util.Scanner;
 
 public abstract class Card {
 
@@ -23,14 +21,12 @@ public abstract class Card {
     protected String nameCard;
     protected State stateCard;
     protected int valueCard;
-    protected Player userCard;
 
     public Card(String nameCard,int valueCard) {
         this.idCard = compteurId++;
         this.nameCard = nameCard;
         this.valueCard = valueCard;
         this.stateCard = State.DANS_PIOCHE; // par défaut : dans la pioche
-        this.userCard = null; //La carte n'appartient à aucun joueur
     }
 
     // Getters
@@ -50,10 +46,6 @@ public abstract class Card {
         return this.valueCard;
     }
 
-    public Player getUserCard() {
-        return this.userCard;
-    }
-
     // Méthodes pour changer l'état
     public void mettreDansPioche() {
         this.stateCard = State.DANS_PIOCHE;
@@ -63,14 +55,12 @@ public abstract class Card {
     public void mettreDansMain(Player player) {
         this.stateCard = State.DANS_MAIN;
         player.hand.add(this);
-        this.userCard = player;
         }
 
-    public void defausser() {
+    public void defausser(Player player) {
         this.stateCard = State.DEFAUSSEE;
         CoreGame.carteDefausse.add(this);
-            this.userCard.hand.remove(this);
-            this.userCard = null;
+            player.hand.remove(this);
     }
 
     public void cacher() {
@@ -85,41 +75,9 @@ public abstract class Card {
                '}';
     }
 
-    public Player demanderCible() {
-
-        Scanner sc = new Scanner(System.in);
-        boolean selectionValide = false;
-
-            System.out.println("\n" + this.userCard.getNom() + ", qui vises tu ? :");
-            System.out.print("Nom : ");
-
-        while(!selectionValide)
-            {
-                String nomChoisi = sc.nextLine().trim();
-                // Cherche un joueur avec ce nom
-                for (Player p : CoreGame.joueurs) 
-                    {
-                        if (p.getNom().equalsIgnoreCase(nomChoisi) && ((p.isElimine()) || (p.hasProtection()))) 
-                            {
-                                System.out.println("Vous ne pouvez pas choisir ce joueur. Choisissez-en un autre.");
-                            }
-                        else if (p.getNom().equalsIgnoreCase(nomChoisi) && CoreGame.joueurs.contains(p)) 
-                            {
-                                selectionValide = true;
-                                return p; //Retourne le joueur ciblé
-                            }
-                        else
-                            {
-                                System.out.println("Aucun joueur ne s'appelle \"" + nomChoisi + "\".");
-                            }
-                        }
-            }
-        return null; //Au cas où
-    }
-
     // Méthode "virtuelle pure" (méthode abstraite)
     // Elle devra être définie dans chaque sous-classe 
-    public abstract void appliquerEffet(); 
+    public abstract void appliquerEffet(Player joueurActif); 
     //Paramètres à changer en fonction des cartes
 }
 
