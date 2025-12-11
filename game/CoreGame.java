@@ -11,7 +11,7 @@ public class CoreGame {
     carteDefausse = new ArrayList<Card>(); // Liste des cartes défaussées (Cartes visibles pour tous les joueurs)
     public static List<Player> joueurs = new ArrayList<Player>();
 
-    public Player demanderCible(Player joueurActif, List<Player> joueurs) {
+    public Player demanderCible(Player joueurActif) {
         //Liste des joueurs donnée en paramètre != liste globale des joueurs, uniquement ceux encore en jeu
         Scanner sc = new Scanner(System.in);
         boolean selectionValide = false; //Flag pour le while
