@@ -85,7 +85,7 @@ public abstract class Card {
     }
     // Méthode "virtuelle pure" (méthode abstraite)
     // Elle devra être définie dans chaque sous-classe 
-    public abstract void appliquerEffet(Player joueurActif, CoreGame game); 
+    public abstract void appliquerEffet(Player joueurActif); 
     //Paramètres à changer en fonction des cartes
 }
 
