@@ -1,7 +1,4 @@
 package cards;
-import game.CoreGame;
-import game.Player;
-
 import game.Player;
 
 public class Princesse extends Card {
