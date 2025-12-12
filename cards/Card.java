@@ -58,6 +58,10 @@ public abstract class Card {
         }
 
     public void defausser(Player player) {
+        if(this.nameCard.equals("Espionne")) 
+            {
+            player.espionneJouee(); // Active l'effet de l'espionne lorsqu'elle est défaussée
+            }
         this.stateCard = State.DEFAUSSEE;
         CoreGame.carteDefausse.add(this);
         player.hand.remove(this);
