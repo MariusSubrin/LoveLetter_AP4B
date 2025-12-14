@@ -1,13 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="214ec08f-30c0-4f5f-a20f-e8424e6c5b2b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/Baron.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/Baron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/Espionne.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/Espionne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/Garde.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/Garde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/Pretre.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/Pretre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/CoreGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/CoreGame.java" afterDir="false" />
+    <list default="true" id="aca24364-46e8-4f02-aa75-2544f692e38e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/.cmake/api/v1/reply/cache-v2-1a9c49e7b752da247982.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c97c4a22a955973413d9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c0df8b46a3d6b074fc6b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/.cmake/api/v1/reply/index-2025-10-10T06-10-50-0154.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/AP4A/TD4_AP4A/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/.idea/CM_AP4A.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/reply/cache-v2-08c4c00c2b17af91a635.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-af62574af41d2a37f050.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e3f572cee38af051ea97.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/reply/index-2025-10-23T06-29-16-0954.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/reply/target-CM_AP4A-Debug-70370db6219b275fa7f5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-3c23e6495c5249cfc0d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/CM_AP4A/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a283cdafe1a4f8d9ad9f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-b8051ecbc1f0d7958dec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-b64870bf67130a6f2924.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/reply/index-2025-10-28T09-31-49-0548.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/reply/target-TD2_SY41-Debug-a82adab0b8fdccd94b61.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7e1e91b5d6845bcfe3ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/TD2_SY41.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/TD2_SY41.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD2_SY41/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/.idea/TD3_SY41.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/reply/cache-v2-01e0f5aea1cc1479f720.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-ad712e8f8bc9774036ac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ecade15a89b2444a0850.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/reply/index-2025-10-28T15-36-42-0014.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/reply/target-TD3_SY41-Debug-98eff96eac9af7731369.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7e1e91b5d6845bcfe3ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD3_SY41/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/.idea/TD4_SY41.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5a42ac46d7c3c4b096ed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-cd34758e0ac78f7e6ad3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1ed7743ab5577f607a65.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/reply/index-2025-10-20T13-04-27-0258.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/reply/target-TD4_SY41-Debug-e37ea3e256ff1c8d31b8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7e1e91b5d6845bcfe3ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD4_SY41/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/.idea/TD5_SY41.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4a8e86a248cc98582944.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-fd1f5f5f9eb62d10c0e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-63a0c2648e1f39ae5bd8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/reply/index-2025-10-20T12-58-51-0872.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/reply/target-TD5_SY41-Debug-54f202ccb658523641b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7e1e91b5d6845bcfe3ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD5_SY41/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/.idea/TD6_SY41.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/reply/cache-v2-88d3cdf46ab05bda4789.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5b948b7d7ad9c1573c56.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1935b6e96dbf156223ab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/reply/index-2025-10-20T12-06-10-0591.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/reply/target-TD6_SY41-Debug-28f99062793adc2ca816.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7e1e91b5d6845bcfe3ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD6_SY41/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/TD7_SY41/correction.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/SY41_UTBM/stm32f401xe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Baron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Baron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Card$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Chancelier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Chancelier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Comtesse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Comtesse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Espionne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Espionne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Garde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Garde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Pretre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Pretre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Prince.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Prince.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Princesse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Princesse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Roi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Roi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Servante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards/Servante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/CoreGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/CoreGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CoreGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,22 +271,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="36pZi8HYOUuaTgiXFZGljQqgC3G" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="36pjDi2PD87KmZBgBqrIf1itlDI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/subri/Documents/CODE/JAVA/AP4B_UTBM/AP4B_Group_Project"
+    "last_opened_file_path": "C:/Users/subri/Documents/CODE/JAVA/AP4B_UTBM/AP4B_Group_Project",
+    "onboarding.tips.debug.path": "C:/Users/subri/Documents/CODE/JAVA/AP4B_UTBM/LoveLetter_AP4B/src/Main.java"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -44,12 +300,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="214ec08f-30c0-4f5f-a20f-e8424e6c5b2b" name="Changes" comment="" />
-      <created>1765705598261</created>
+      <changelist id="aca24364-46e8-4f02-aa75-2544f692e38e" name="Changes" comment="" />
+      <created>1765710290888</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1765705598261</updated>
+      <updated>1765710290888</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
