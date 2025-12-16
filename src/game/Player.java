@@ -86,6 +86,12 @@ public class Player {
         this.protection = false;
     }
 
+    public void piocher(){
+        Card p = CoreGame.pioche.get(CoreGame.pioche.size() - 1);
+        p.mettreDansMain(this);
+        CoreGame.pioche.remove(CoreGame.pioche.size() - 1);
+    }
+
     public void newRound() {
         this.resurrection();
         this.protectionOff();
@@ -93,10 +99,11 @@ public class Player {
     }
 
     public void choixCarte(){
+        System.out.println("C'est le tour de " + this.getNom() + " !");
         if(this.hand.size() == 2){
             System.out.println("Voici vos cartes : \n");
             for (Card c : this.hand) {
-                System.out.println(c.toString()); //on affiche toute ses cartes
+                System.out.println(c.toString()); //on affiche toutes ses cartes
             }
 
             try (Scanner sc = new Scanner(System.in)) {

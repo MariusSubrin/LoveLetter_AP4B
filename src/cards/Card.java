@@ -22,11 +22,11 @@ public abstract class Card {
     protected State stateCard;
     protected int valueCard;
 
-    public Card(String nameCard,int valueCard) {
+    public Card(String nameCard, int valueCard) {
         this.idCard = compteurId++;
         this.nameCard = nameCard;
         this.valueCard = valueCard;
-        this.stateCard = State.DANS_PIOCHE; // par défaut : dans la pioche
+        this.mettreDansPioche();
     }
 
     // Getters
@@ -58,7 +58,7 @@ public abstract class Card {
         }
 
     public void defausser(Player player) {
-        if(this.nameCard.equals("Espionne")) 
+        /*if(this.nameCard.equals("Espionne"))
             {
                 System.out.println(player.getNom() + " a défaussé l'Espionne.");
                 player.espionneJouee(); // Active l'effet de l'espionne lorsqu'elle est défaussée
@@ -67,7 +67,7 @@ public abstract class Card {
             {
                 System.out.println(player.getNom() + " a défaussé la Princesse et est donc éliminé.");
                 player.elimination(); // Le joueur est éliminé s'il défausse la Princesse
-            }
+            }*/ //Répétition non ?
         this.stateCard = State.DEFAUSSEE;
         CoreGame.carteDefausse.add(this);
         player.hand.remove(this);
@@ -84,7 +84,7 @@ public abstract class Card {
 
     @Override //Pour afficher la carte au joueur (les vérifications se feront dans la méthode affiche de la classe Player)
     public String toString() {
-        return "Card{id=" + idCard +
+        return "{id=" + idCard +
                ", name='" + nameCard + '\'' +
                ", state=" + stateCard +
                '}';
