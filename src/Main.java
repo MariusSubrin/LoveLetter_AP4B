@@ -1,9 +1,5 @@
-import cards.Princesse;
-import game.CoreGame;
-import cards.Card;
-
-import static game.CoreGame.afficherPioche;
-import static game.CoreGame.initPioche;
+import controller.CoreGame;
+import view.LoveLetterView;
 
 public class Main {
     //Doit appeler les bons fichiers au début
@@ -12,8 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
         // TODO: Initialize the game
-        System.out.println("Game starting...");
         CoreGame.lancerPartie();
+        //new LoveLetterView();
     }
 }
 
@@ -24,4 +20,11 @@ Listes de tests à faire (non compléte) :
     - soucis avec le chancelier
 
 Revoir les consignes pour savoir si tout est bien fait
+ */
+
+/*
+MVC :
+Afficher / demander à l’utilisateur	: View
+Règles du jeu / décisions : Controller
+Données (Player, Card…) : Model
  */
