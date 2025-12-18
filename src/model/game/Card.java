@@ -1,7 +1,6 @@
 package model.game;
 
 import controller.CoreGame;
-import model.game.Player;
 
 public abstract class Card {
 
@@ -74,6 +73,7 @@ public abstract class Card {
     }
 
     public void jouerCarte(Player joueurActif) {
+        System.out.println(joueurActif.getNom() + " joue la carte " + this.nameCard + ".");
         this.appliquerEffet(joueurActif);
         this.defausser(joueurActif);
     }

@@ -43,10 +43,11 @@ public class CoreGame {
                 // Cherche un joueur avec ce nom
                 for (Player p : joueurs)
                 {
-                    if(!p.getNom().equalsIgnoreCase(choix) || !choix.equals(String.valueOf(p.getId()))) {
+                    if(p.getNom().equalsIgnoreCase(choix) || choix.equals(String.valueOf(p.getId()))) 
+                    {
                         //Si ce n'est pas le joueur que l'on cherche, on passe au suivant
 
-                        if (p.equals(joueurActif)) {
+                        if (joueurActif.getNom().equals(choix) && !joueurActif.hand.get(0).getNameCard().equals("Prince")) {
                             System.out.println("Vous ne pouvez pas vous viser vous-même.");
                             break;
                         }
@@ -117,7 +118,7 @@ public class CoreGame {
         }
 
         int winFaveurs = 0;
-        if(nbjoueurs == 2){ winFaveurs = 6; }
+        if(nbjoueurs == 2){ winFaveurs = 6; } //Switch case ?
         if(nbjoueurs == 3){ winFaveurs = 5; }
         if(nbjoueurs == 4){ winFaveurs = 4; }
         if(nbjoueurs == 5){ winFaveurs = 3; }
