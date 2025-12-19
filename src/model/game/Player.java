@@ -20,6 +20,7 @@ public class Player {
     private boolean protection;
     private boolean espionne_jouee;
     public List<Card> hand;
+    public boolean gagnant; //Si jamais c'est le gagnant de la manche précédente
 
     public Player(String nom) {
         this.id = compteurId++;   // ID unique auto-incrémenté
@@ -29,6 +30,7 @@ public class Player {
         this.protection = false;
         this.espionne_jouee = false;
         this.hand = new ArrayList<Card>();
+        this.gagnant = false;
     }
 
     // Getters (accesseurs)
@@ -97,9 +99,11 @@ public class Player {
         this.resurrection();
         this.protectionOff();
         this.resetEspionneJouee();
+        this.gagnant = false;
     }
 
     public void choixCarte(){
+        System.out.println("----------------------------------------------------------------------"); //Pour séparer visuellement avec le joueur précédent
         System.out.println("C'est le tour de " + this.getNom() + " !");
         if(this.hand.size() == 2){
             System.out.println("Voici vos cartes : \n");
@@ -131,7 +135,7 @@ public class Player {
                 System.out.println(c.toString()); //on affiche toute ses cartes
             }
 
-            try (Scanner sc = new Scanner(System.in)) {
+            try (Scanner sc = new Scanner(System.in)) { //Soucis car on ferme le scanner ensuite, il faut en créer un global static dans coregame
                 boolean flag_1 = false, flag_2 = false, flag_3 = false;
 
                 while (!flag_1){

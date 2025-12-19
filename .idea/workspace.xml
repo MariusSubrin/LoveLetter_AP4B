@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aca24364-46e8-4f02-aa75-2544f692e38e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/view/LoveLetterView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoveLetter_AP4B/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoveLetter_AP4B/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Baron.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Chancelier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Comtesse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Espionne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Garde.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Pretre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Prince.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Princesse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Roi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cards/Servante.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/CoreGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CoreGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CoreGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/cards/Garde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/Garde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/game/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",

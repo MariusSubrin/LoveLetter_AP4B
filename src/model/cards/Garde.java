@@ -7,7 +7,7 @@ public class Garde extends Card{
     @Override
     public void appliquerEffet(Player joueurActif) {
         // L'effet de la Garde est de tenter de deviner la carte d'un autre joueur.
-        System.out.println("La Garde a été jouée.");
+        System.out.println("La Garde a été jouée. Vous allez tenter de deviner la carte d'un autre joueur afin de l'éliminer");
 
         Player cible = CoreGame.demanderCible(joueurActif);
         System.out.println(joueurActif.getNom() + ", quelle carte pensez-vous que " + cible.getNom() + " possède ?");

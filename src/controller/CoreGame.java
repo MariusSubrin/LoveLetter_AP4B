@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 import model.cards.*;
 import model.game.*;
-import view.LoveLetterView;
 
 public class CoreGame {
 
@@ -15,7 +14,6 @@ public class CoreGame {
     public static List<Card> carteDefausse = new ArrayList<>(); // Liste des cartes défaussées (Cartes visibles pour tous les joueurs)
     public static List<Player> joueurs = new ArrayList<Player>();
     public static Card carteCachee; // Carte cachée
-    public static Player gagnant; // Joueur gagnant de la dernière manche
     // public static int faveurs = 13; // Nombre total de faveurs disponibles dans le jeu, utile ?
 
     public static void afficherPioche(){
@@ -41,13 +39,15 @@ public class CoreGame {
 
                 String choix = sc.nextLine().trim();
                 // Cherche un joueur avec ce nom
+
+                boolean flag = false;
                 for (Player p : joueurs)
                 {
                     if(p.getNom().equalsIgnoreCase(choix) || choix.equals(String.valueOf(p.getId()))) 
                     {
-                        //Si ce n'est pas le joueur que l'on cherche, on passe au suivant
+                        //On rentre dans la boucle que si c'est le bon joueur
 
-                        if (joueurActif.getNom().equals(choix) && !joueurActif.hand.get(0).getNameCard().equals("Prince")) {
+                        if ((joueurActif.getNom().equals(choix) || joueurActif.getId() == p.getId()) && !joueurActif.hand.get(0).getNameCard().equals("Prince")) {
                             System.out.println("Vous ne pouvez pas vous viser vous-même.");
                             break;
                         }
@@ -62,10 +62,12 @@ public class CoreGame {
                             break;
                         }
 
+                        flag = true;
                         return p; //joueur valide
-                    }else{
-                        System.out.println("Aucun joueur valide ne correspond à ce choix.");
                     }
+                }
+                if(flag == false){ //Si aucun des joueurs de correspond au nom donné ou à l'id
+                        System.out.println("Aucun joueur valide ne correspond à ce choix.");
                 }
             }
     }
@@ -117,12 +119,13 @@ public class CoreGame {
             joueurs.add(new Player(nomJoueur));
         }
 
-        int winFaveurs = 0;
-        if(nbjoueurs == 2){ winFaveurs = 6; } //Switch case ?
-        if(nbjoueurs == 3){ winFaveurs = 5; }
-        if(nbjoueurs == 4){ winFaveurs = 4; }
-        if(nbjoueurs == 5){ winFaveurs = 3; }
-        if(nbjoueurs == 6){ winFaveurs = 3; }
+        int winFaveurs = switch (nbjoueurs) {
+            case 2 -> 6;
+            case 3 -> 5;
+            case 4 -> 4;
+            case 5, 6 -> 3;
+            default -> 0; // sécurité
+        };
 
         //Initialisation de la pioche
         initPioche();
@@ -162,13 +165,40 @@ public class CoreGame {
 
         int i = 0;
         while (!pioche.isEmpty() || howManyAlive() > 1){
+            if (i == 5){
+                i = 1;
+            }
             if(!joueurs.get(i).isElimine()){
                 lancerTour(joueurs.get(i));
                 i ++;
             }else{ i ++; }
         }
 
-        CoreGame.gagnant = null; //Mettre le joueur ayant gagné pour débuter la prochaine manche (surement avec une vérification))
+        Player p = getWinner();
+        p.gagnant = true;
+        //Mettre le joueur ayant gagné pour débuter la prochaine manche (surement avec une vérification))
+    }
+
+    public static Player getWinner(){
+        if (howManyAlive() == 1){
+            for (Player p : joueurs){
+                if (!p.isElimine()){
+                    return p; //On retourne l'unique joueur en "vie"
+                }
+            }
+        }
+        if (pioche.isEmpty()){
+            Player maxValue = joueurs.get(0);
+
+            for (Player p : joueurs) {
+                if (p.hand.get(0).getValueCard() > maxValue.hand.get(0).getValueCard()) {
+                    maxValue = p;
+                }
+            }
+
+            return maxValue;
+        }
+        return null; //Faudrait lancer une erreure
     }
 
     //Lancement d'un tour, à la fin c'est à un autre joueur de jouer
@@ -193,12 +223,19 @@ public class CoreGame {
 
     public static void deplacerGagnantEnPremier() 
     {
-        if (gagnant != null && joueurs.contains(gagnant)) 
-        {
-            joueurs.remove(gagnant);  // Supprime le gagnant de sa position actuelle
-            joueurs.add(0, gagnant);   // L'ajoute à l'indice 0
+        Player p = getPastGagnant(); //référence vers objet dans pas de soucis mémoire
+        joueurs.remove(p);  // Supprime le gagnant de sa position actuelle
+        joueurs.add(0, p);   // L'ajoute à l'indice 0
+    }
+
+    public static Player getPastGagnant(){
+        for (Player p : joueurs){
+            if (p.gagnant == true){
+                return p;
+            }
         }
-    }   
+        return joueurs.get(0); //Lors de la première manche aucun joueur n'est gagnant de la précédente
+    }
 
     public static int howManyAlive(){
         int x = 0;

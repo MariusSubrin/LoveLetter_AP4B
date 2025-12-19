@@ -20,6 +20,9 @@ Listes de tests à faire (non compléte) :
     - soucis avec le chancelier
 
 Revoir les consignes pour savoir si tout est bien fait
+- Gestion des exceptions
+
+Diagramme de Gantt
  */
 
 /*
